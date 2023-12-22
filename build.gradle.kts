@@ -45,7 +45,7 @@ dependencies {
 }
 
 group = "dev.kingtux"
-version = "1.3"
+version = "1.2"
 description = "VoidWorld"
 tasks.withType<JavaCompile>() {
     options.encoding = "UTF-8"
