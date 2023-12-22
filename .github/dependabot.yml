@@ -1,0 +1,8 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+  ignore:
+    - dependency-name: org.spigotmc:spigot-api:1.16.4-R0.1-SNAPSHOT
